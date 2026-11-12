@@ -43,7 +43,7 @@ public class MainTienda {
                     System.out.println("No es una opción válida");
             }
 
-       }while(opc != 7);
+       }while(opc != 7 || opc<0);
     }
 
     public static void menu(){
